@@ -246,6 +246,10 @@ img {
  text-shadow: 0 0 5px #ccc, 0 0 50px #000, 0 0 10px #999;
 }
 
+.bullet {
+	display: none;
+}
+
 
 /*------TABLET-------*/
 @media screen and (max-width: 1023px) {
@@ -420,6 +424,11 @@ margin-top:5%;
 
 .radio {
    padding: 3% 6% 6% 6%;
-   letter-spacing: -0.5px;
+   letter-spacing: -0.5px;}
+
+.bullet {
+display:inline-block;
+font-size:3.5vw;
+
 }
 }
