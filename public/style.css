@@ -79,6 +79,10 @@ width:100%;
 /*background-color: #fff;*/
 }
 
+.nav ul {
+	list-style: none;
+}
+
 .nav li {
 	display: inline;
 	color: #000;
@@ -88,6 +92,7 @@ width:100%;
 
 .nav a {
 	display:inline-block;
+	list-style: none;
 	text-decoration: none;
 	color: #000;
 	font-family: 'SGR', sans-serif;
@@ -388,9 +393,11 @@ font-family:'SGR',sans-serif;
 	padding:4%;
 	position: fixed;
 	width:100%;
+	list-style: none;
 /*	background-color: #fff;*/
 
 }
+
 
 .homelink a {
 	font-size:5vw;
@@ -400,6 +407,7 @@ font-family:'SGR',sans-serif;
 	letter-spacing: 1px;
 	padding-left:0%;
 }
+
 
 
 .menuhomelink {
