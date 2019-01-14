@@ -96,6 +96,7 @@ $(function(){
 		$('body').css('color', '#000');
 		$('header').css('background-color', '#FFF');
 		$('div').css('color', '#000');
+		$('span').css('color', '#000');
 		$('ul').css('border-bottom', '1.5px solid #000');
 		$('li').css('color', '#000');
 		$('a').css('color', '#000');
@@ -115,6 +116,7 @@ $(function(){
 		$('header').css('background-color', '#000');
 		$('ul').css('border-bottom', '1.5px solid #fff');
 		$('div').css('color', '#FFF');
+		$('span').css('color', '#FFF');
 		$('li').css('color', '#fff');
 		$('a').css('color', '#FFF');
 		$('a').hover(
