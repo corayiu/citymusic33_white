@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>City Music</title>
+<title>City — Bio</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="overlay.css">
 <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
@@ -11,26 +11,29 @@
 <meta name="description" content="City is a musician, composer, and artist from Vancouver B.C.">
 <meta property="og:title" content="City Music" />
 <!-- <meta property="og:url" content="http://www.currentsymposium.com/" /> -->
-<!-- <meta property="og:image" content="images/currentmeta.jpg" /> -->
-<meta property="og:description" content="City is a musician, composer, and artist from Vancouver B.C." />
+<meta property="og:image" content="images/citymusic.jpeg" />
+<meta property="og:description" content="City AKA Will Ballantyne is a musician, composer, and artist from Vancouver, B.C." />
 </head>
-<body>
+<body class="white" style="">
 <header>
 <div class="desktop-nav">
  
   <ul class="nav">
-  	<li><a href="../index.html" class="homelink">City</a></li>
-  	<li class="slash">&nbsp;&nbsp;&nbsp;<strong>/</strong></li>
+    <li><a href="../index.html" class="homelink">City</a></li>
+        <li class="slash">&nbsp;&nbsp;&nbsp;<strong>/</strong></li>
     <li><a href="bio.html" class="navlink current">Bio</a></li>
     <li><a href="discography.html" class="navlink">Discography</a></li>
     <li><a href="live.html" class="navlink">Live</a></li>
     <li><a href="work.html" class="navlink">Work</a></li>
     <li><a href="press.html" class="navlink">Press</a></li>
   </ul>
- 	</div>
+      <div id="blackandwhite">
+          <a href="#" id="blackstyle">B</a> / <a href="#" id="whitestyle">W</a> 
+        </div>
+  </div>
 
   <div class="mobile-nav">
-  	<div class="navbar-header">
+    <div class="navbar-header">
             <div class="toggle-button" id="toggle">
                 <button class="button" data-text-swap="Close">Menu</button>
             </div>
@@ -42,15 +45,15 @@
 
         <div class="overlay" id="overlay"> 
 <div class="menuhomelink">
-<li><a href="../index.html">City</a></li></div>	
+<li><a href="../index.html">City</a></li></div> 
   <ul>
     <li><a href="bio.html" class="navlink">Bio</a></li>
     <li><a href="discography.html" class="navlink">Discography</a></li>
     <li><a href="live.html" class="navlink">Live</a></li>
     <li><a href="work.html" class="navlink">Work</a></li>
     <li><a href="press.html" class="navlink">Press</a></li>
-      <div class="overlay-social">
-      <a href="http://citymusic33.bandcamp.com/" target="_blank">Bandcamp</a> &nbsp;| &nbsp;<a href="http://soundcloud.com/citymusic33" target="_blank">Soundcloud </a>&nbsp;| &nbsp;<a href="https://open.spotify.com/artist/0erZTALmPyhNSC2HfwEhSQ?si=McgyHULJRUaePTGXeeb-8g" target="_blank">Spotify</a><br><a href="http://twitter.com/citymusic33" target="_blank">Twitter </a>&nbsp;| <a href="http://facebook.com/citymusic33" target="_blank">&nbsp;Facebook</a> &nbsp;| &nbsp;<a href="https://www.instagram.com/willballantyne/" target="_blank">Instagram</a>
+  <div class="overlay-social">
+     <a href="http://citymusic33.bandcamp.com/" target="_blank">Bandcamp</a> &nbsp;| &nbsp;<a href="http://soundcloud.com/citymusic33" target="_blank">Soundcloud </a>&nbsp;| &nbsp;<a href="https://open.spotify.com/artist/0erZTALmPyhNSC2HfwEhSQ?si=McgyHULJRUaePTGXeeb-8g" target="_blank">Spotify</a><br><a href="http://twitter.com/citymusic33" target="_blank">Twitter </a>&nbsp;| <a href="http://facebook.com/citymusic33" target="_blank">&nbsp;Facebook</a> &nbsp;| &nbsp;<a href="https://www.instagram.com/willballantyne/" target="_blank">Instagram</a>
       </div>
   </ul>
            </div>
@@ -65,8 +68,24 @@ A classically-trained musician and lifelong electric guitarist, City’s music i
 In the past two years, City’s performance schedule has increased substantially, with tours of Europe, North America, and Asia. His practice has expanded to include collaborations with artists such as Joey Holder, for her latest film “Adcredo: The Deep Belief Network,” and Rick Farin, for the soundtrack for a promotional film for Chinese fashion designer Xander Zhou. He has delivered guest lectures on sound design, artistic practice, and composition at London South Bank University and Goldsmiths University of London. His next release will be a collaborative record written with Victoria-based experimental drummer i.o on New York label PTP in summer 2019.</div>
 </div>
   </div>
-  
 
+</div>
+<!--     <script type="text/javascript" charset="utf-8">
+    $(function(){
+    
+      var page = "bio.html";
+      
+      if ( page == "work" || page == "info" )
+        $('body').addClass('white');
+      else
+        $('body').addClass('black');
+        
+
+    });
+    </script> -->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/inverse.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 <script src="js/overlay.js"></script>
 </body>
