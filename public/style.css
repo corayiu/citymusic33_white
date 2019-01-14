@@ -37,9 +37,19 @@ header {
 
 #blackandwhite{
 	position:fixed;
-	top:0;
-	right:0;
+	top:18px;
+	right:0px;
 	width:6%;
+}
+
+#blackandwhite a{
+text-decoration: none;
+color:#000;
+font-family:'SGR',sans-serif;
+}
+
+#blackandwhite a:hover {
+ text-shadow: 0 0 5px #ccc, 0 0 50px #000, 0 0 10px #999;
 }
 
 #mobile-bw {
@@ -127,6 +137,7 @@ img {
 	order:2;
 	font-family: 'SGR', sans-serif;
 	color: #000;
+	z-index:-1;
 
 }
 
@@ -342,13 +353,19 @@ margin-top:5%;
  text-shadow: 0 0 5px #ccc, 0 0 50px #000, 0 0 10px #999;
 }
 
-#mobile-bw {
-	display:block;
-	position: fixed;
-	bottom:2%;
-	right:4%;
-	font-size: 4vw;
-	font-family:'SGR', sans-serif;
+
+#blackandwhite{
+	font-size: 6vw;
+	position:fixed;
+	top:90%;
+	right:0;
+	width:25%;
+}
+
+#blackandwhite a{
+text-decoration: none;
+color:#000;
+font-family:'SGR',sans-serif;
 }
 
 .navlink {
@@ -367,7 +384,7 @@ margin-top:5%;
 	position: fixed;
 	width:100%;
 	border-bottom: 1.5px solid #000;
-	background-color: #fff;
+/*	background-color: #fff;*/
 
 }
 

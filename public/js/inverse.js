@@ -99,6 +99,8 @@ $(function(){
 		$('span').css('color', '#000');
 		$('ul').css('border-bottom', '1.5px solid #000');
 		$('li').css('color', '#000');
+		$('overlay').css('color', '#000');
+		$('button').css('color', '#000');
 		$('a').css('color', '#000');
 		$('a').hover(
 			function(){
@@ -118,6 +120,8 @@ $(function(){
 		$('div').css('color', '#FFF');
 		$('span').css('color', '#FFF');
 		$('li').css('color', '#fff');
+		$('overlay').css('color', '#fff');
+		$('button').css('color', '#fff');
 		$('a').css('color', '#FFF');
 		$('a').hover(
 			function(){
