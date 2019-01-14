@@ -363,6 +363,7 @@ letter-spacing: 0px;
 	top:90%;
 	right:0;
 	width:25%;
+	z-index:10;
 }
 
 #blackandwhite a{
