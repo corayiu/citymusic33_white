@@ -26,6 +26,7 @@ header {
 	top:0;
 	width:100%;
 	background-color:#fff;
+	z-index: 2;
 }
 
 ::selection{
@@ -137,7 +138,6 @@ img {
 	order:2;
 	font-family: 'SGR', sans-serif;
 	color: #000;
-	z-index:-1;
 
 }
 
@@ -230,7 +230,7 @@ img {
 .disco {
 	line-height:1.5;
 	color: #000;
-   padding:5% 20% 5% 2%;
+   padding:4% 20% 5% 2%;
    margin-top:3%;
 }
 

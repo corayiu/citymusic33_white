@@ -95,9 +95,13 @@ $(function(){
 		$('body').css('background-color', '#FFF');
 		$('body').css('color', '#000');
 		$('header').css('background-color', '#FFF');
+		$('.overlay').css('background-color', '#fff');
 		$('div').css('color', '#000');
 		$('span').css('color', '#000');
 		$('ul').css('border-bottom', '1.5px solid #000');
+		$('.menuhomelink').css('border-bottom', '1.5px solid #fff');
+		$('.menuhomelink').css('background-color', '#fff');
+		$('.box3').css('border-right', '1.5px solid #000');
 		$('li').css('color', '#000');
 		$('overlay').css('color', '#000');
 		$('button').css('color', '#000');
@@ -117,6 +121,10 @@ $(function(){
 		$('body').css('color', '#FFF');
 		$('header').css('background-color', '#000');
 		$('ul').css('border-bottom', '1.5px solid #fff');
+		$('.menuhomelink').css('border-bottom', '1.5px solid #fff');
+		$('.menuhomelink').css('background-color', '#000');
+		$('.overlay').css('background-color', '#000');
+		$('.box3').css('border-right', '1.5px solid #fff');
 		$('div').css('color', '#FFF');
 		$('span').css('color', '#FFF');
 		$('li').css('color', '#fff');
