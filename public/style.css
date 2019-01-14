@@ -335,6 +335,7 @@ z-index: -100;
 	font-family: 'Karla', sans-serif;
 	padding-right:10%;
 	line-height:2;
+	letter-spacing: -0.5px;
 }
 
 .overlay-social {
