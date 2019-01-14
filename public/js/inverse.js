@@ -102,7 +102,7 @@ $(function(){
 		$('.menuhomelink').css('border-bottom', '1.5px solid #000');
 		$('.mobile-nav').css('border-bottom', '1.5px solid #000');
 		$('.menuhomelink').css('background-color', '#fff');
-		$('.box3').css('border-right', '1.5px solid #000');
+		$('.box3').addClass('line-right').css('border-right', '1.5px solid #000');
 		$('li').css('color', '#000');
 		$('overlay').css('color', '#000');
 		$('button').css('color', '#000');
@@ -126,7 +126,7 @@ $(function(){
 		$('.mobile-nav').css('border-bottom', '1.5px solid #fff');
 		$('.menuhomelink').css('background-color', '#000');
 		$('.overlay').css('background-color', '#000');
-		$('.box3').css('border-right', '1.5px solid #fff');
+		$('.box3').addClass('line-right').css('border-right', '1.5px solid #fff');
 		$('div').css('color', '#FFF');
 		$('span').css('color', '#FFF');
 		$('li').css('color', '#fff');
