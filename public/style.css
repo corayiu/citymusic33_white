@@ -293,7 +293,8 @@ img {
 
 .mobile-nav {
 	display: block;
-	padding-bottom: 15%;
+	padding-bottom: 16%;
+	border-bottom: 1.5px solid #000;
 }
 
 .mobilehome {
@@ -379,9 +380,6 @@ font-family:'SGR',sans-serif;
 	visibility: hidden;
 }
 
-.mobile-nav {
-	border-bottom: 1.5px solid #000;
-}
 
 .homelink {
 	padding:4%;
