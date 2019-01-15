@@ -150,6 +150,7 @@ img {
 	flex:1;
 	order:1;
 	height: 95vh;
+	border-right: 2px solid #000;
 	
 }
 
@@ -284,10 +285,10 @@ img {
 	display: none;
 }
 
-	@media (min-width:1024) {
+
 .line-right {
 	border-right: 2px solid #000;
-}
+
 }
 
 /*------TABLET-------*/
@@ -330,7 +331,7 @@ img {
 }
 
 .line-right {
-	border-right: none;
+	border-right: none!important;
 }
 
 .box4 {
@@ -415,7 +416,7 @@ font-family:'SGR',sans-serif;
 	color: #000;
 	font-family: 'SGR', sans-serif;
 	letter-spacing: 1px;
-	padding-left:0%;
+	padding-left:2%;
 }
 
 
@@ -436,6 +437,7 @@ font-family:'SGR',sans-serif;
 	color: #000;
 	font-family: 'SGR', sans-serif;
 	letter-spacing: 1px;
+	padding-left:2%;
 	
 
 }
