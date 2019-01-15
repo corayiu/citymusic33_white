@@ -343,6 +343,7 @@
 }
 .overlay ul li {
     display: block;
+    list-style: none;
 }
 
 .overlay ul li a {
@@ -458,6 +459,7 @@
 }
 .overlay ul li {
     display: block;
+    list-style: none;
 }
 
 .overlay ul li a {
