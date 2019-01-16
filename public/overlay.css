@@ -318,7 +318,7 @@
     padding: 4% 6% 4% 5%;
     text-align: left;
     font-family: 'SGR', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     cursor: pointer;
     z-index: 4;
     font-size:5vw;
@@ -414,7 +414,7 @@
     text-align: right;
     font-family: 'SGR', sans-serif;
     font-size:5vw;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     z-index: 8;
 
