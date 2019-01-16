@@ -188,6 +188,10 @@ img {
  text-shadow: 0 0 5px #ccc, 0 0 50px #000, 0 0 10px #999;
 } 
 
+.mobile-social {
+	display:none;
+}
+
 .quote {
 	font-family: 'SGR', sans-serif;
 	font-size:2.5vw;
@@ -348,6 +352,11 @@ z-index: -100;
 }
 
 .social {
+display: none;
+}
+
+.mobile-social {
+	display:block;
 	margin-top:15%;
 	font-size:4.5vw;
 	font-family: 'Karla', sans-serif;
@@ -355,6 +364,15 @@ z-index: -100;
 	line-height:2;
 	letter-spacing: 0px;
 }
+
+.mobile-social a {
+	text-decoration: none;
+	color: #000;
+}
+
+.mobile-social a:hover {
+ text-shadow: 0 0 5px #ccc, 0 0 50px #000, 0 0 10px #999;
+} 
 
 .overlay-social {
 font-size:4vw;
