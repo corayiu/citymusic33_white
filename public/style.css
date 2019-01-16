@@ -376,7 +376,7 @@ letter-spacing: 0px;
 #blackandwhite{
 	font-size: 6vw;
 	position:fixed;
-	top:92%;
+	top:92gi%;
 	right:0;
 	width:25%;
 	z-index:10;
@@ -443,8 +443,8 @@ font-family:'SGR',sans-serif;
 }
 .quote {
 	font-family: 'SGR', sans-serif;
-	font-size:6vw;
-	line-height: 1;
+	font-size:5vw;
+	line-height: 1.5;
 
 }
 
