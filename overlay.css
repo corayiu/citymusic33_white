@@ -337,7 +337,7 @@
     text-align: left;
     list-style: none;
     padding: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 3;
 
 }
@@ -454,7 +454,7 @@
     text-align: left;
     list-style: none;
     padding: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 3;
 }
 .overlay ul li {
