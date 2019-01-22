@@ -30,7 +30,7 @@ header {
 }
 
 ::selection{
-	background-color:#fff;
+	background-color:#ccc;
 	color:#000;
 }
 
@@ -173,6 +173,12 @@ img {
 	 padding:6%;
 }
 
+.booking {
+	font-family:'Karla', sans-serif;
+	font-size:1.3vw;
+	line-height: 1.7;
+}
+
 .social {
 	margin-top:15%;
 	font-size:1.3vw;
@@ -296,11 +302,33 @@ img {
 
 }
 
+footer {
+	font-family: 'SGR', sans-serif;
+	font-size:0.8vw;
+	color: #fff;
+	text-align: left;
+	width:100%;
+	border-top: 2px solid #fff;
+	padding:0.5% 0 0.5% 2%;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:hover{
+	 text-shadow: 0 0 15px #ccc, 0 0 50px #fff, 0 0 10px #999;
+}
+
 @media screen and (min-width: 1700px) {
 .container {
 	display:flex;
 	margin-top:3.5%;
 }
+
+
 }
 
 /*------TABLET-------*/
@@ -524,6 +552,16 @@ font-family:'SGR',sans-serif;
 .bullet {
 display:inline-block;
 font-size:3.5vw;
+
+}
+
+footer {
+	font-family: 'SGR', sans-serif;
+	font-size:3vw;
+	color: #fff;
+	border-top: 2px solid #fff;
+	padding:2% 0% 2% 0%;
+	text-align: center;
 
 }
 

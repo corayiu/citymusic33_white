@@ -97,6 +97,8 @@ $(function(){
 		$('header').css('background-color', '#FFF');
 		$('.overlay').css('background-color', '#fff');
 		$('div').css('color', '#000');
+		$('footer').css('color', '#000');
+		$('footer').css('border-top', '1.5px solid #000');
 		$('span').css('color', '#000');
 		$('.nav').css('border-bottom', '1.5px solid #000');
 		$('.menuhomelink').css('border-bottom', '1.5px solid #000');
@@ -128,6 +130,8 @@ $(function(){
 		$('.overlay').css('background-color', '#000');
 		$('.box3').addClass('line-right').css('border-right', '1.5px solid #fff');
 		$('div').css('color', '#FFF');
+		$('footer').css('color', '#FFF');
+		$('footer').css('border-top', '1.5px solid #FFF');
 		$('span').css('color', '#FFF');
 		$('li').css('color', '#fff');
 		$('overlay').css('color', '#fff');
