@@ -444,7 +444,7 @@ letter-spacing: 0px;
 #blackandwhite{
 	font-size: 6vw;
 	position:fixed;
-	top:92%;
+	top:91%;
 	right:0;
 	width:25%;
 	z-index:10;
@@ -571,11 +571,16 @@ font-size:3.5vw;
 
 footer {
 	font-family: 'SGR', sans-serif;
-	font-size:2.8vw;
+	font-size:2.9vw;
 	color: #fff;
 	border-top: 2px solid #fff;
 	padding:3% 0% 3% 0%;
 	text-align: center;
+
+}
+
+.footer2 {
+	font-size:2.8vw;
 
 }
 
