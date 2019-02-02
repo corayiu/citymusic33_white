@@ -336,6 +336,10 @@ footer a:hover{
 	padding:0.5% 0 0.5% 2%;
 }
 
+.footer2 {
+	padding:0.5% 0 0.5% 2%;
+}
+
 @media screen and (min-width: 1700px) {
 .container {
 	display:flex;
